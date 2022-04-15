@@ -139,3 +139,4 @@ def launch_ssh_cloudflared(
         raise Exception(
             "It looks like something went wrong, please make sure your token is valid")
     proc.stdout.close()
+    return info
